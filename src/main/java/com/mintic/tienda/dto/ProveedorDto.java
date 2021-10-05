@@ -2,24 +2,24 @@ package com.mintic.tienda.dto;
 
 public class ProveedorDto {
 
-	private int id_provedor;
-	private int provedor;
+	private Long id_provedor;
+	private Long provedor;
 	private String ciudad_proveedor;
 	private String direccion_proveedor;
 	private String nombre_proveedor;
 	private String telefono_proveedor;
 	
 	
-	public int getId_provedor() {
+	public Long getId_provedor() {
 		return id_provedor;
 	}
-	public void setId_provedor(int id_provedor) {
+	public void setId_provedor(Long id_provedor) {
 		this.id_provedor = id_provedor;
 	}
-	public int getProvedor() {
+	public Long getProvedor() {
 		return provedor;
 	}
-	public void setProvedor(int provedor) {
+	public void setProvedor(Long provedor) {
 		this.provedor = provedor;
 	}
 	public String getCiudad_proveedor() {

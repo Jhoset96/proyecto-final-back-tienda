@@ -1,8 +1,8 @@
 package com.mintic.tienda.dto;
 
 public class ClienteDto {
- private int id_cliente;
- private int id_tipo_documento;
+ private Long id_cliente;
+ private Long id_tipo_documento;
  private String cedula_cliente;
  private String direccion_cliente;
  private String email_cliente;
@@ -10,16 +10,16 @@ public class ClienteDto {
  private String telefono_cliente;
  
  
-public int getId_cliente() {
+public Long getId_cliente() {
 	return id_cliente;
 }
-public void setId_cliente(int id_cliente) {
+public void setId_cliente(Long id_cliente) {
 	this.id_cliente = id_cliente;
 }
-public int getId_tipo_documento() {
+public Long getId_tipo_documento() {
 	return id_tipo_documento;
 }
-public void setId_tipo_documento(int id_tipo_documento) {
+public void setId_tipo_documento(Long id_tipo_documento) {
 	this.id_tipo_documento = id_tipo_documento;
 }
 public String getCedula_cliente() {

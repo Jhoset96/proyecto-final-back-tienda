@@ -24,6 +24,7 @@ public class TipoDocumento {
 
 	}
 
+	
 	public TipoDocumento(Long id, String tipo) {
 
 		this.id = id;

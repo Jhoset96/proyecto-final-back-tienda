@@ -2,37 +2,35 @@ package com.mintic.tienda.dto;
 
 public class ProductoDto {
 
-	private int codigo_producto;
-	private int iva_compra;
-	private int id_proveedor;
-	private int nit_proveedor;
+	private Long codigo_producto;
+	private Long iva_compra;
+	private Long id_proveedor;
+	private Long nit_proveedor;
 	private String nombre_producto;
-	private int precio_compra;
-	private int precio_venta;
-	
-	
-	public int getCodigo_producto() {
+	private Long precio_compra;
+	private Long precio_venta;
+	public Long getCodigo_producto() {
 		return codigo_producto;
 	}
-	public void setCodigo_producto(int codigo_producto) {
+	public void setCodigo_producto(Long codigo_producto) {
 		this.codigo_producto = codigo_producto;
 	}
-	public int getIva_compra() {
+	public Long getIva_compra() {
 		return iva_compra;
 	}
-	public void setIva_compra(int iva_compra) {
+	public void setIva_compra(Long iva_compra) {
 		this.iva_compra = iva_compra;
 	}
-	public int getId_proveedor() {
+	public Long getId_proveedor() {
 		return id_proveedor;
 	}
-	public void setId_proveedor(int id_proveedor) {
+	public void setId_proveedor(Long id_proveedor) {
 		this.id_proveedor = id_proveedor;
 	}
-	public int getNit_proveedor() {
+	public Long getNit_proveedor() {
 		return nit_proveedor;
 	}
-	public void setNit_proveedor(int nit_proveedor) {
+	public void setNit_proveedor(Long nit_proveedor) {
 		this.nit_proveedor = nit_proveedor;
 	}
 	public String getNombre_producto() {
@@ -41,17 +39,19 @@ public class ProductoDto {
 	public void setNombre_producto(String nombre_producto) {
 		this.nombre_producto = nombre_producto;
 	}
-	public int getPrecio_compra() {
+	public Long getPrecio_compra() {
 		return precio_compra;
 	}
-	public void setPrecio_compra(int precio_compra) {
+	public void setPrecio_compra(Long precio_compra) {
 		this.precio_compra = precio_compra;
 	}
-	public int getPrecio_venta() {
+	public Long getPrecio_venta() {
 		return precio_venta;
 	}
-	public void setPrecio_venta(int precio_venta) {
+	public void setPrecio_venta(Long precio_venta) {
 		this.precio_venta = precio_venta;
 	}
+	
+	
 
 }
