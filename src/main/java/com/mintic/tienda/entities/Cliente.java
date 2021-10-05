@@ -17,7 +17,6 @@ public class Cliente {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id_cliente")
 	private Long id_cliente;
 	
 	@ManyToOne
@@ -35,9 +34,7 @@ public class Cliente {
 	
 	private String telefono_cliente;
 	
-	public Cliente() {
-
-	}
+	
 	
 	public Long getId_cliente() {
 		return id_cliente;
@@ -95,9 +92,4 @@ public class Cliente {
 		this.telefono_cliente = telefono_cliente;
 	}
 
-	public static String getTableName() {
-		return TABLE_NAME;
-	}
-	
-	
 }
